@@ -1,0 +1,134 @@
+/* 共通のレイアウト */
+.menu-icon {
+  display: none;
+}
+
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+  /* ---------------- page1 ---------------- */
+  .features-box {
+    width: 100%;
+  }
+
+  .price-column {
+    width: 45%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 40px;
+  }
+
+  /* ---------------- page2 ---------------- */
+  .contact-form {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  input[type="text"], textarea {
+    width: 100%;
+  }
+
+  .contact-about {
+    width: 100%;
+    margin-top: 30px;
+    padding: 0 20px;
+  }
+
+  /* ---------------- page3 ---------------- */
+  .top-description h2 {
+    font-size: 36px;
+  }
+
+  .section-title h3 {
+    font-size: 28px;
+  }
+
+  .message-section h4 {
+    font-size: 19px;
+  }
+}
+
+/* モバイル向けレイアウト */
+@media all and (max-width: 670px) {
+  /* ---------------- page4 ---------------- */
+  .menu-icon {
+    display: block;
+    float: right;
+    line-height: 50px;
+    font-size: 25px;
+  }
+
+  .header-menu-right li {
+    display: none;
+  }
+
+  .languages-box-wrapper {
+    height: 1000px;
+  }
+
+  .languages-box {
+    width: 100%;
+  }
+
+  /* ---------------- page5 ---------------- */
+  .features-image {
+    width: 300px;
+  }
+  
+  .message-section {
+    text-align: left;
+  }
+
+  .message-section-inner {
+    padding: 90px 0;
+  }
+
+  .price-column {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%
+  }
+
+  .contact-form {
+    padding: 0;
+  }
+
+  .contact-about {
+    padding: 0;
+  }
+
+  /* ---------------- page6 ---------------- */
+  .btn {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .section-title h3 {
+    font-size: 24px;
+  }
+
+  .top-description h2 {
+    font-size: 28px;
+  }
+
+  .top-description p {
+    font-size: 13px;
+  }
+
+  .features-box {
+    font-size: 13px;
+  }
+
+  .features-box h5 {
+    font-size: 16px;
+  }
+
+  .message-section h4 {
+    font-size: 17px;
+    line-height: 35px;
+  }
+  
+  .contact-about p {
+    line-height: 20px;
+  }
+}
